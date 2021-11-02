@@ -34,7 +34,7 @@ limitations under the License.
 #include "Si2146_L2_API.h"               /* Include file for this code */
 
 #ifdef LOAD_PATCH_11b3
-#include "Si2146_Firmware_1_1_build_3.h"       /* firmware compatible with Si2146-A10-GM */
+#include "Si2146_firmware_1_1_build_3.h"       /* firmware compatible with Si2146-A10-GM */
 #endif
 
 #define Si2146_BYTES_PER_LINE 8
