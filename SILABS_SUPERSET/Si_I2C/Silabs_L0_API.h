@@ -43,6 +43,8 @@ limitations under the License.
 #endif /* LINUX_ST_SDK2_I2C */
 
 #if !defined(LINUX_ST_SDK2_I2C) && !defined(LINUX_KERNEL_DRIVER)
+  #include <stdint.h>
+  #include <inttypes.h>
   #include <stdlib.h>
   #include <stdio.h>
   #include <time.h>
